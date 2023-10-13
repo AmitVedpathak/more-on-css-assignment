@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image</title>
+    <style>
+        .container, .hover_container{
+            border-radius: 10px;
+            width: 28%;
+            background-color: rgb(255, 230, 5);
+        }
+        .box{
+            padding: 10px;
+            font-size: 20px;
+        }
+        img{
+            border-radius: 10px;
+            width: 356px;
+            display: block;
+            margin: auto;
+        }
+        .hover_container:hover{
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <h2>Without hover</h2>
+    <div class="container">
+        <div class="box">
+            <img src="https://cdn.pwskills.com/assets/uploads/thumbnails/6458eb8a6977cc6cd6dd583c.png" alt="">
+            <p> <b>Course Name :</b> PW Skill Full stack web development</p>
+        </div>
+    </div>
+
+    <h2>With hover</h2>
+    <div class="hover_container">
+        <div class="box">
+            <img src="https://cdn.pwskills.com/assets/uploads/thumbnails/6458eb8a6977cc6cd6dd583c.png" alt="">
+            <p> <b>Course Name :</b> PW Skill Full stack web development</p>
+        </div>
+    </div>
+</body>
+</html>
